@@ -17,7 +17,7 @@
         "port": "22",
         "repo": "git@github.com:tcly861204/pm2-web.git",
         "path": "/usr/src",
-        "post-deploy" : "npm install && pm2 reload .pm2.config.js --env production"
+        "post-deploy" : "npm install && pm2 reload pm2.config.js --env production"
       }
     }
   }   
