@@ -14,7 +14,7 @@
         "user": "root",
         "host": ["192.168.0.7"],
         "ref": "origin/master",
-        "port": "8080",
+        "port": "22",
         "repo": "git@github.com:tcly861204/pm2-web.git",
         "path": "/usr/src",
         "post-deploy" : "npm install && pm2 reload .pm2.config.js --env production"
