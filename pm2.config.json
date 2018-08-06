@@ -1,6 +1,6 @@
 {
     "app": [{
-      "name" :"app",
+      "name" :"pm2",
       "script": "app.js",
       "env" :{
         "COMMON_VARIABLE": "true"
